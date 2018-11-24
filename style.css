@@ -1,0 +1,138 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #00252e;
+	padding: 10px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700; 
+}
+.build {
+	text-align: center;
+	padding-top: 20px;
+}
+.img-top {
+	margin-bottom: -2px;
+}
+.img-bottom {
+	margin-top: -2px;
+}
+.Btn, .Btn:link, .Btn:visited {
+  color: #ffffff;
+  background-color: #ff52bf;
+  font-weight: 600;
+  box-shadow: 0px 2px 13px 2px rgba(0, 0, 0, 0.2);
+  transition: all .2s; 
+}
+
+.Btn:active, .Btn:focus {
+  outline: none; 
+}
+
+ .primaryBtn{
+ 	 color:  #ff52bf;
+ 	 border: 1px solid #ff52bf;
+ 	 border-radius: 100px;
+ 	 padding: 8px 25px;
+ 	 font-weight: 600;
+ 	 transition: all .2s;
+
+
+ }
+ .primaryBtn:hover{
+ 	color: #ffffff;
+ 	background-color: #ff52bf;
+ 	text-decoration: none;
+ 	transform: scale(1.1);
+ }
+
+ .secondaryBtn {
+  padding: 20px 60px;
+  border-radius: 100px; 
+  margin: 0 auto;
+}
+  .secondaryBtn:hover {
+    transform: translateY(-0.3rem) scale(1.1);
+    text-decoration: none; 
+}
+.thirdBtn {
+  padding: 7px 40px;
+  border: none;
+  border-radius: 2px; }
+  .thirdBtn:hover {
+    background-color: #ffffff;
+    color: #ff52bf; 
+}
+
+header .logo {
+  width: 150px; 
+}
+
+.section {
+	padding-top: 150px;
+}
+.section-a h1 {
+  font-size: 36px;
+  font-weight: 700; 
+}
+  @media only screen and (min-width: 62em) {
+    .section-a h1 {
+      font-size: 40px; 
+      } }
+.section-b img {
+  text-align: left !important; 
+}
+  @media only screen and (min-width: 62em) {
+  .section-b img.mockups {
+    width: 80%; 
+    }
+     }
+
+.section-c .section-middle, .section-e .section-middle {
+       background-color: #f5faff; 
+}
+  @media only screen and (min-width: 48em) {
+    .section-c .section-middle .left, .section-e .section-middle .left {
+      order: 2; 
+      } 
+  }
+
+
+@media only screen and (min-width: 48em) {
+  .section-c, .section-d, .section-e {
+    text-align: left; }
+  .narrow {
+    padding: 0 3rem; }
+  .narrow-left {
+    padding-right: 10rem; }
+  .narrow-right {
+    padding-right: 6rem; } }
+
+    .section-f h2 {
+  font-size: 36px; }
+
+.footer .section-middle {
+  text-align: left;
+  background: #00252e;
+  color: #ffffff; }
+
+.footer h2 {
+  text-transform: uppercase; }
+
+.footer .fa-phone-volume {
+  padding: 0 2px; }
+
+@media only screen and (min-width: 48em) {
+  .footer .fa-lg {
+    font-size: 30px; }
+  .footer .form-row .text-right {
+    text-align: left !important; } }
+
+@media only screen and (min-width: 62em) {
+  .footer .left {
+    order: 2; } }
+
+.footer .copy a {
+  color: #ff52bf; }
